@@ -33,7 +33,7 @@ button:hover {
 }
 
 .separador {
-  padding: 50px;
+  padding: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,7 @@ button:hover {
 }
 
 .container-item {
+  padding: 0 50px 0 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -79,6 +80,37 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.nosotross {
+  padding: 50px 0 50px 0;
+  display: flex;
+  align-content: space-between;
+}
+
+.nosotross .texto {
+  padding: 0 50px 0 50px;
+}
+
+.nosotross .ubi {
+  padding: 0 50px 0 10px;
+}
+
+footer {
+  background-color: #E3CFF3;
+  display: flex;
+  align-content: space-between;
+  padding: 50px;
+}
+footer img {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+footer h2 {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 1100px;
 }
 
 /*# sourceMappingURL=style.css.map */
