@@ -50,6 +50,22 @@ button:hover {
   gap: 20px;
 }
 
+@media (max-width: 1366px) {
+  .container-item {
+    padding: 0 50px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .container-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 1px;
+  }
+}
 .item {
   border-radius: 10px;
 }
@@ -96,6 +112,22 @@ button:hover {
   padding: 0 50px 0 10px;
 }
 
+@media (max-width: 1366px) {
+  .nosotross {
+    flex-direction: column;
+  }
+  .nosotross .ubi {
+    padding: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .nosotross {
+    flex-direction: column;
+  }
+  .nosotross .ubi {
+    width: 100%;
+  }
+}
 footer {
   background-color: #E3CFF3;
   display: flex;
