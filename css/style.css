@@ -33,7 +33,7 @@ button:hover {
 }
 
 .separador {
-  padding: 100px;
+  padding: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,33 +99,46 @@ button:hover {
 }
 
 .nosotross {
-  padding: 50px 0 50px 0;
+  padding: 40px;
+}
+.nosotross .titulo h2 {
+  padding-bottom: 50px;
   display: flex;
-  align-content: space-between;
+  justify-content: center;
 }
 
-.nosotross .texto {
-  padding: 0 50px 0 50px;
+.ubi {
+  padding: 30px;
+}
+.ubi .titulo h2 {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-.nosotross .ubi {
-  padding: 0 50px 0 10px;
+.iframe-responsivo {
+  width: 1440px;
+  height: 400px;
 }
 
-@media (max-width: 1366px) {
-  .nosotross {
-    flex-direction: column;
-  }
-  .nosotross .ubi {
-    padding: 100px;
+/* Pantallas de 320px o superior */
+@media (max-width: 320px) {
+  .iframe-responsivo {
+    width: 200px;
+    height: 150px;
   }
 }
-@media (max-width: 480px) {
-  .nosotross {
-    flex-direction: column;
+/* Pantalla 768px o superior */
+@media (max-width: 770px) {
+  .iframe-responsivo {
+    width: 20px;
+    height: 40px;
   }
-  .nosotross .ubi {
-    width: 100%;
+}
+@media (max-width: 1370px) {
+  .iframe-responsivo {
+    width: 900px;
+    height: 400px;
   }
 }
 footer {
@@ -143,6 +156,10 @@ footer h3 {
   display: flex;
   align-items: center;
   padding: 9px 0 0 700px;
+}
+
+.separador1 {
+  padding: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
