@@ -174,3 +174,35 @@ footer{
 .separador1{
     padding: 100px;
 }
+
+.producto{
+    display: flex;
+    justify-content: stretch;
+    padding: 100px 0  100px 300px;
+    
+}
+
+.muestrario{
+    .carruseladolfo{ 
+        width: 350px;
+    }
+}
+
+.info-producto{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+span.product-condicion-principal {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    line-height: 2.3;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #B68BDF;
+    text-align: center;
+    border-radius: 99px;
+    padding: 0 1.2em;
+    width: 150px;
+    color: black;
+}
