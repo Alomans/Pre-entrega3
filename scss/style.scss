@@ -211,3 +211,90 @@ span.product-condicion-principal {
     color: black;
 }
 
+.container-reg{
+    width: 500px;
+    padding: 20px;
+    background: #E3CFF3;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    .titulo{
+        text-align: center;
+        border: solid #B68BDF;
+        border-style: dashed;
+        padding: 15px;
+    }
+    .padre{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .nombre,.apellidos,.email,.contraseña{
+            display: flex;
+            flex-direction: column;
+            label{
+                padding-bottom: 5px;
+            }
+        }
+        input{
+            padding-top: 20px;
+        }
+        input:hover{
+            outline: solid #B68BDF;
+        }
+        .cuenta{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                padding-top: 5px;
+            }
+        }
+    }
+}
+
+.container-in{
+    width: 500px;
+    padding: 20px;
+    background: #E3CFF3;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    .titulo{
+        text-align: center;
+        border: solid #B68BDF;
+        border-style: dashed;
+        padding: 15px;
+    }
+    .padre{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .email,.contraseña{
+            display: flex;
+            flex-direction: column;
+            label{
+                padding-bottom: 5px;
+            }
+        }
+        input{
+            padding-top: 20px;
+        }
+        input:hover{
+            outline: solid #B68BDF;
+        }
+        .cuenta{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                padding-top: 5px;
+            }
+        }
+    }
+}
+
+

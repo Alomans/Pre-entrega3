@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header .nav1 {
   background-color: #F8F9FA;
 }
@@ -195,7 +196,7 @@ span.product-condicion-principal {
   color: black;
 }
 
-.container-reg{
+.container-reg {
   width: 500px;
   padding: 20px;
   background: #E3CFF3;
@@ -203,76 +204,82 @@ span.product-condicion-principal {
   margin-top: 90px;
   margin-bottom: 100px;
   border-radius: 10px;
-  .titulo{
-    text-align: center;
-    border: solid #B68BDF;
-    border-style: dashed;
-    padding: 15px;
-  }
-  .padre{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    .nombre,.apellidos,.email,.contraseña{
-      display: flex;
-      flex-direction: column;
-    }
-    input{
-      padding-top: 20px;
-      padding: 10px;
-    }
-    input:hover{
-      outline: solid #B68BDF;
-    }
-    .cuenta{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
+}
+.container-reg .titulo {
+  text-align: center;
+  border: solid #B68BDF;
+  border-style: dashed;
+  padding: 15px;
+}
+.container-reg .padre {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.container-reg .padre .nombre, .container-reg .padre .apellidos, .container-reg .padre .email, .container-reg .padre .contraseña {
+  display: flex;
+  flex-direction: column;
+}
+.container-reg .padre .nombre label, .container-reg .padre .apellidos label, .container-reg .padre .email label, .container-reg .padre .contraseña label {
+  padding-bottom: 5px;
+}
+.container-reg .padre input {
+  padding-top: 20px;
+}
+.container-reg .padre input:hover {
+  outline: solid #B68BDF;
+}
+.container-reg .padre .cuenta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-reg .padre .cuenta p {
+  padding-top: 5px;
 }
 
-.container-in{
+.container-in {
   width: 500px;
   padding: 20px;
   background: #E3CFF3;
   margin: auto;
   margin-top: 90px;
-  margin-bottom: 200PX;
+  margin-bottom: 100px;
   border-radius: 10px;
-  .titulo{
-    text-align: center;
-    border: solid #B68BDF;
-    border-style: dashed;
-    padding: 15px;
-  }
-  .padre{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    .email,.contraseña{
-      display: flex;
-      flex-direction: column;
-    }
-    input{
-      padding-top: 20px;
-      padding: 10px;
-    }
-    input:hover{
-      outline: solid #B68BDF;
-    }
-    .cuenta{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
-  
 }
-
-
-
+.container-in .titulo {
+  text-align: center;
+  border: solid #B68BDF;
+  border-style: dashed;
+  padding: 15px;
+}
+.container-in .padre {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.container-in .padre .email, .container-in .padre .contraseña {
+  display: flex;
+  flex-direction: column;
+}
+.container-in .padre .email label, .container-in .padre .contraseña label {
+  padding-bottom: 5px;
+}
+.container-in .padre input {
+  padding-top: 20px;
+}
+.container-in .padre input:hover {
+  outline: solid #B68BDF;
+}
+.container-in .padre .cuenta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-in .padre .cuenta p {
+  padding-top: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
