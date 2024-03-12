@@ -20,6 +20,27 @@ header .nav2 {
   background-color: #E3CFF3;
 }
 
+footer {
+  background-color: #E3CFF3;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+footer img {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+footer .derecha {
+  padding-right: 50px;
+  padding-top: 10px;
+}
+footer .derecha a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
 .botonadolfo {
   background-color: #E3CFF3;
   padding: 9px 25px;
@@ -48,25 +69,9 @@ button:hover {
   padding: 0 50px 0 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 100px;
 }
 
-@media (max-width: 1366px) {
-  .container-item {
-    padding: 0 50px 0 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .container-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 1px;
-  }
-}
 .item {
   border-radius: 10px;
 }
@@ -120,47 +125,6 @@ button:hover {
 .iframe-responsivo {
   width: 1440px;
   height: 400px;
-}
-
-/* Pantallas de 320px o superior */
-@media (max-width: 320px) {
-  .iframe-responsivo {
-    width: 200px;
-    height: 150px;
-  }
-}
-/* Pantalla 768px o superior */
-@media (max-width: 770px) {
-  .iframe-responsivo {
-    width: 20px;
-    height: 40px;
-  }
-}
-@media (max-width: 1370px) {
-  .iframe-responsivo {
-    width: 900px;
-    height: 400px;
-  }
-}
-footer {
-  background-color: #E3CFF3;
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-}
-footer img {
-  width: 150px;
-  display: flex;
-  align-items: center;
-}
-footer .derecha {
-  padding-right: 50px;
-  padding-top: 10px;
-}
-footer .derecha a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
 }
 
 .separador1 {

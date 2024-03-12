@@ -1,0 +1,20 @@
+footer{
+    background-color: #E3CFF3;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    img{
+        width: 150px;
+        display: flex;
+        align-items: center;
+    }
+    .derecha{
+        padding-right: 50px;
+        padding-top: 10px;
+        a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+        }
+    }
+}

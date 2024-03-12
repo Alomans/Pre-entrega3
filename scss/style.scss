@@ -1,25 +1,5 @@
-header{
-    .nav1{
-        background-color: #F8F9FA;
-        ul{
-            display: flex;
-            list-style-type: none;
-            li{
-                padding-top: 10px;
-                margin: 10px;
-            }
-        }
-        img{
-            width: 100px;
-        }
-        a{
-            text-decoration: none;
-        }
-    }
-    .nav2{
-        background-color: #E3CFF3;
-    }
-}
+@import 'componentes/header.scss';
+@import 'componentes/footer';
 
 .botonadolfo{
     background-color: #E3CFF3;
@@ -49,25 +29,7 @@ button:hover{
     padding: 0 50px 0 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-@media (max-width: 1366px){
-    .container-item{
-        padding: 0 50px 0 50px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px; 
-    }
-}
-
-@media (max-width: 480px){
-    .container-item{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px; 
-        width: 1px;
-    }
+    gap: 100px;
 }
 
 .item{
@@ -127,52 +89,6 @@ button:hover{
 .iframe-responsivo{
     width: 1440px;
     height: 400px;
-}
-
-/* Pantallas de 320px o superior */
-
-@media (max-width: 320px) {
-    .iframe-responsivo {
-      width: 200px;
-      height: 150px;
-    }
-  }
-
-  /* Pantalla 768px o superior */
-
-@media (max-width: 770px) {
-    .iframe-responsivo{
-        width: 20px;
-        height: 40px;
-    }
-}
-
-@media (max-width: 1370px) {
-    .iframe-responsivo{
-        width: 900px;
-        height: 400px;
-    }
-  }
-
-footer{
-    background-color: #E3CFF3;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    img{
-        width: 150px;
-        display: flex;
-        align-items: center;
-    }
-    .derecha{
-        padding-right: 50px;
-        padding-top: 10px;
-        a{
-            display: flex;
-            justify-content: center;
-            text-decoration: none;
-        }
-    }
 }
 
 .separador1{
