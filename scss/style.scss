@@ -157,17 +157,21 @@ button:hover{
 footer{
     background-color: #E3CFF3;
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
     padding: 50px;
     img{
-        width: 200px;
+        width: 150px;
         display: flex;
         align-items: center;
     }
-    h3{
-        display: flex;
-        align-items: center;
-        padding: 9px 0 0 700px;
+    .derecha{
+        padding-right: 50px;
+        padding-top: 10px;
+        a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+        }
     }
 }
 
@@ -206,3 +210,4 @@ span.product-condicion-principal {
     width: 150px;
     color: black;
 }
+
