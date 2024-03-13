@@ -1,0 +1,28 @@
+/*navbar responsive*/
+
+@media screen and (max-width: 430px) {
+    .nav1{
+        ul{
+            align-items: center;
+            padding: 1px;
+        }
+    }
+}
+
+/*muestrario responsive*/
+
+@media screen and (min-width: 1024px) {
+    .container-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 500px;
+      }
+}
+
+@media screen and (min-width: 430px) {
+    .container-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+}
